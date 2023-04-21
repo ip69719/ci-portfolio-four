@@ -2,6 +2,9 @@ from django.db import models
 from django.contrib.auth.models import User
 
 
+STATUS = ((0, "Confirmed"), (1, "Cancelled"))
+
+
 # Create your models here.
 class Booking(models.Model):
     """
@@ -15,3 +18,4 @@ class Booking(models.Model):
     email = models.EmailField()
     date = models.DateField()
     time = models.TimeField()
+    status = models.IntegerField(choices=STATUS, default=0)
