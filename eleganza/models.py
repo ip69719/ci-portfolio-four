@@ -6,7 +6,7 @@ STATUS = ((0, "Confirmed"), (1, "Cancelled"))
 
 
 # Create your models here.
-class Booking(models.Model):
+class Appointment(models.Model):
     """
     Appointment Booking model
     """
