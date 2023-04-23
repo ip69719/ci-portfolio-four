@@ -9,13 +9,39 @@ body {
     font-size: 100%;
 }
 
+
+/* ---------------------------------- Main */
+
 .container-main {
     background: black;
 }
 
 
-/* Display background image on devices ≥576px*/
+/* home */
 
+.jumbotron {
+    background-color: transparent;
+    color: white;
+}
+
+.jumbotron h1{
+    font-family: 'Meow Script', cursive;
+    font-size: 10rem;
+}
+
+.jumbotron > p > span {
+    font-family: 'Meow Script', cursive;
+    font-size: 2rem;
+}    
+
+.rotate{
+    transform: rotate(-10deg);
+}
+
+
+/* --------------------------Media Queries */
+
+/* Display background image on devices ≥576px*/
 @media screen and (min-width: 576px) {
     .hero-image {
         background: url('/static/images/hero.png') no-repeat center center;
