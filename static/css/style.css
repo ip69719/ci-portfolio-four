@@ -8,3 +8,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 100%;
 }
+
+.container-main {
+    background: black;
+}
