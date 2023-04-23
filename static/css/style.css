@@ -12,3 +12,17 @@ body {
 .container-main {
     background: black;
 }
+
+
+/* Display background image on devices ≥576px*/
+
+@media screen and (min-width: 576px) {
+    .hero-image {
+        background: url('/static/images/hero.png') no-repeat center center;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        align-items:center;
+        justify-content: left;
+    }
+}
