@@ -1,5 +1,10 @@
 /* ---------------------------- Global style */
 
-.text-orange {
-    color: orange;
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&family=Montserrat:wght@300&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
 }
