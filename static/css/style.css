@@ -15,6 +15,17 @@ body {
 }
 
 
+/* -------------------------------- Navbar */
+
+.bg-black {
+    background-color: black;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+}
+
+
 /* ---------------------------------- Main */
 
 .container-main {
