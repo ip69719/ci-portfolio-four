@@ -9,6 +9,11 @@ body {
     font-size: 100%;
 }
 
+/* to ensure that fixed navbar does not cover content */
+body { 
+    padding-top: 56px; 
+}
+
 
 /* ---------------------------------- Main */
 
