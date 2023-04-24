@@ -36,3 +36,5 @@
 ### Media
 
 ### Code
+
+* Learned how align Bootstrap navbar items from [this](https://stackoverflow.com/questions/41513463/bootstrap-align-navbar-items-to-the-right) Stack Overflow post.
