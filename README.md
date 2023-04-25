@@ -38,3 +38,4 @@
 ### Code
 
 * Learned how align Bootstrap navbar items from [this](https://stackoverflow.com/questions/41513463/bootstrap-align-navbar-items-to-the-right) Stack Overflow post.
+* Adopted code for footer section from [this](https://mdbootstrap.com/snippets/standard/mdbootstrap/2885120?view=side) footer design by MDBootstrap.
