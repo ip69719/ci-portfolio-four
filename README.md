@@ -1,4 +1,4 @@
-[Link to the live project]()
+[Link to the live project](https://eleganza-hair-salon.herokuapp.com/)
 
 # Eleganza Hair Salon
 
