@@ -54,6 +54,13 @@ body {
     transform: rotate(-10deg);
 }
 
+/* footer */
+
+.logo {
+    font-family: 'Meow Script', cursive;
+    font-size: 3rem;
+}
+
 
 /* --------------------------Media Queries */
 
