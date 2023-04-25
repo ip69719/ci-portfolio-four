@@ -21,9 +21,11 @@
 ### Frameworks, Libraries & Programs Used
 
 * [Django](https://www.djangoproject.com/) web framework was used to create the application.
+* [Font Awesome](https://fontawesome.com/) was used to obtain icons for the website.
 * [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 * [GitHub](https://github.com/) is used to store the projects code after being pushed from Git.
 * [Google fonts](https://fonts.google.com/) were used to import the 'Meow Script' and 'Montserrat' fonts into the style.css file.
+* [TinyPNG](https://tinypng.com/) was used to optimise images for the web.
 
 ## Testing
 
