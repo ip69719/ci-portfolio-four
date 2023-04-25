@@ -26,13 +26,19 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mt-2 mt-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link text-white" href="#">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link text-white" href="{% url 'home' %}">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Appointments</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Login/Sign Up</a>
+                        <a class="nav-link text-white" href="{% url 'account_logout' %}">Logout</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="{% url 'account_signup' %}">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="{% url 'account_login' %}">Login</a>
                     </li>
                 </ul>
             </div>
