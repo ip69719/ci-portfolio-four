@@ -41,5 +41,6 @@
 
 ### Code
 
-* Learned how align Bootstrap navbar items from [this](https://stackoverflow.com/questions/41513463/bootstrap-align-navbar-items-to-the-right) Stack Overflow post.
+* Learned how to align Bootstrap navbar items from [this](https://stackoverflow.com/questions/41513463/bootstrap-align-navbar-items-to-the-right) Stack Overflow post.
 * Adopted code for footer section from [this](https://mdbootstrap.com/snippets/standard/mdbootstrap/2885120?view=side) footer design by MDBootstrap.
+* Learned how to vertically align items using Bootstrap from [this](https://stackoverflow.com/questions/42252443/vertical-align-center-in-bootstrap-4) Stack Overflow post.
