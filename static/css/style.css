@@ -62,6 +62,33 @@ body {
 }
 
 
+/* authentication pages */
+
+.container-account {
+    background-color: #f2ece8;
+
+}
+
+.card {
+    background-color:#ffffff;
+    border: 2px solid  #91672C;
+    color: #131217;
+    margin: 2rem;
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-family: 'Meow Script', cursive;
+    color: #523D19;
+}
+
+.card-body button {
+    background-color: #523D19;
+    color: #f2ece8;
+}
+
+
+
 /* --------------------------Media Queries */
 
 /* Display background image on devices ≥576px*/
