@@ -92,6 +92,11 @@ body {
     color: #f2ece8;
 }
 
+.card a:hover {
+    background-color: #f2ece8;
+    border: 2px solid #523D19;
+  }
+
 
 
 /* --------------------------Media Queries */
