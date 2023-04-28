@@ -87,6 +87,11 @@ body {
     color: #f2ece8;
 }
 
+.btn-custom {
+    background-color: #523D19;
+    color: #f2ece8;
+}
+
 
 
 /* --------------------------Media Queries */
