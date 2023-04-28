@@ -4,17 +4,21 @@
 <div class="container container-account h-100">
     <h2 class="text-center pt-4">My Booking History</h2>
     <div class="row align-items-center h-100">
+        {% for appointment in appointments %}
         <div class="col-sm-6 col-md-4 my-3 mx-auto">
             <div class="card">
                 <div class="card-body text-center">
                     <h3 class="card-title">Colour</h3>
-                    <p>Date: </p>
-                    <p>Time: </p>
+                    <p>Date: {{ appointment.date}}</p>
+                    <p>Time: {{ appointment.time}}</p>
                     <a href="#" class="btn btn-custom">Edit</a>
                     <a href="#" class="btn btn-custom">Cancel</a>
                 </div>
             </div>
         </div>
+        {% empty %}
+        <p>You have not booked any appointments yet</p>
+        {% endfor%}
     </div>
 </div>
 {% endblock content %}
