@@ -30,7 +30,7 @@
                     </li>
                     {% if user.is_authenticated %}
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Appointments</a>
+                        <a class="nav-link text-white" href="{% url 'my_profile' %}">Appointments</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="{% url 'account_logout' %}">Logout</a>
