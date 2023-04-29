@@ -44,3 +44,5 @@
 * Learned how to align Bootstrap navbar items from [this](https://stackoverflow.com/questions/41513463/bootstrap-align-navbar-items-to-the-right) Stack Overflow post.
 * Adopted code for footer section from [this](https://mdbootstrap.com/snippets/standard/mdbootstrap/2885120?view=side) footer design by MDBootstrap.
 * Learned how to vertically align items using Bootstrap from [this](https://stackoverflow.com/questions/42252443/vertical-align-center-in-bootstrap-4) Stack Overflow post.
+* Learned how to change order of flex items with Bootstrap from [this](https://stackoverflow.com/questions/51115456/bootstrap-4-ordering-class) Stack Overflow post.
+* Learned how to hide elements with Bootstrap from [this](https://stackoverflow.com/questions/57039195/how-to-hide-element-for-mobile-device-with-bootstrap4) Stack Overflow post.
