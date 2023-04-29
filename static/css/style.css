@@ -14,12 +14,15 @@ body {
     padding-top: 56px; 
 }
 
-
-/* -------------------------------- Navbar */
-
 .bg-black {
     background-color: black;
 }
+
+.bg-cream {
+    background-color: #f2ece8;
+}
+
+/* -------------------------------- Navbar */
 
 .navbar-nav {
     text-transform: uppercase;
@@ -28,12 +31,25 @@ body {
 
 /* ---------------------------------- Main */
 
-.container-main {
-    background: black;
+/* ----- home ----- */
+
+.container-home {
+    background-color: black;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
+/* hero section */
 
-/* home */
+.hero-content {
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
 
 .jumbotron {
     background-color: transparent;
@@ -42,10 +58,10 @@ body {
 
 .jumbotron h1{
     font-family: 'Meow Script', cursive;
-    font-size: 10rem;
+    font-size: 6rem;
 }
 
-.jumbotron > p > span {
+.jumbotron h2 span {
     font-family: 'Meow Script', cursive;
     font-size: 2rem;
 }    
