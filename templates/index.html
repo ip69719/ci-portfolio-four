@@ -8,13 +8,14 @@
         <section class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <div class="hero-image">
+                    <div class="hero-image" style="background-image: url('{% static 'images/hero.png' %}');">
                         <!-- background image is replaced with img on smaller screens -->
                         <img src="{% static 'images/hero.png' %}" class="img-fluid d-sm-none" alt="Woman with blonde curly hairstyle">
                         <div class="jumbotron d-flex flex-column align-items-center">
                             <p class="lead d-sm-none">Welcome to <span class="rotate">Eleganza</span>!</p>
                             <h1 class="rotate d-none d-sm-block">Eleganza</h1>
                             <p class="lead text-uppercase">luxurious award winning hair salon</p>
+                            <a class="btn btn-primary btn-lg" href="{% url 'book' %}" role="button">Book Now</a>
                         </div>
                     </div>
                 </div>
