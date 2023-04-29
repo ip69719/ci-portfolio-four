@@ -21,6 +21,7 @@
 ### Frameworks, Libraries & Programs Used
 
 * [Django](https://www.djangoproject.com/) web framework was used to create the application.
+* [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/index.html) used for styling of all forms
 * [Font Awesome](https://fontawesome.com/) was used to obtain icons for the website.
 * [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 * [GitHub](https://github.com/) is used to store the projects code after being pushed from Git.
