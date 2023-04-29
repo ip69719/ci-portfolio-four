@@ -96,20 +96,3 @@ body {
     background-color: #f2ece8;
     border: 2px solid #523D19;
   }
-
-
-
-/* --------------------------Media Queries */
-
-/* Display background image on devices ≥576px*/
-@media screen and (min-width: 576px) {
-    .hero-image {
-        background: url('https://res.cloudinary.com/dzvdrexc8/image/upload/v1682719717/static/images/hero.9477b1c646ac.png') no-repeat center center;
-        /* background: url('/static/images/hero.png') no-repeat center center;-->*/
-        background-size: cover;
-        height: 100vh;
-        display: flex;
-        align-items:center;
-        justify-content: left;
-    }
-}
