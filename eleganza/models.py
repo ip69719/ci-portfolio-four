@@ -10,7 +10,7 @@ class Appointment(models.Model):
     """
     Appointment Booking model
     """
-    Customer = models.ForeignKey(
+    customer = models.ForeignKey(
         User, on_delete=models.CASCADE)
     first_name = models.CharField(max_length=35)
     last_name = models.CharField(max_length=35)
