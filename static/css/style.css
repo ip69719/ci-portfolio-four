@@ -7,11 +7,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 100%;
-}
-
-/* to ensure that fixed navbar does not cover content */
-body { 
-    padding-top: 56px; 
+    /* to ensure that fixed navbar does not cover content */
+    padding-top: 56px;
 }
 
 .bg-black {
@@ -56,38 +53,31 @@ body {
     color: white;
 }
 
-.jumbotron h1{
+.jumbotron h1 {
     font-family: 'Meow Script', cursive;
     font-size: 6rem;
 }
 
-.jumbotron h2 span {
-    font-family: 'Meow Script', cursive;
-    font-size: 2rem;
-}    
-
-.rotate{
+.rotate {
     transform: rotate(-10deg);
 }
 
-/* footer */
+/* ---- footer -----*/
 
 .logo {
     font-family: 'Meow Script', cursive;
     font-size: 3rem;
 }
 
-
 /* authentication pages */
 
 .container-account {
     background-color: #f2ece8;
-    height: 100%;
 }
 
 .card {
-    background-color:#ffffff;
-    border: 2px solid  #91672C;
+    background-color: #ffffff;
+    border: 2px solid #91672C;
     color: #131217;
     margin: 2rem;
     padding: 1.5rem;
@@ -103,12 +93,7 @@ body {
     color: #f2ece8;
 }
 
-.btn-custom {
-    background-color: #523D19;
-    color: #f2ece8;
-}
-
 .card a:hover {
     background-color: #f2ece8;
     border: 2px solid #523D19;
-  }
+}
