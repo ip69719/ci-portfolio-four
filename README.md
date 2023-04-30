@@ -45,7 +45,11 @@ Agile approach has been applied to develop this application. GitHub projects boa
 
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/kanban_board.png)
 
-### Design choices
+### Agile methodology
+
+### Database diagram
+
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/EDR.png)
 
 #### Typography
 
