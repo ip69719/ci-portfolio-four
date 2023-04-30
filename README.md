@@ -25,6 +25,7 @@ This project was created for an imaginary hair salon website designed to allow c
 
 ### Frameworks, Libraries & Programs Used
 
+* [Bootstrap v 4.6](https://getbootstrap.com/) CSS framework was used for creating responsive design.
 * [Django](https://www.djangoproject.com/) web framework was used to create the application.
 * [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/index.html) used for styling of all forms
 * [Font Awesome](https://fontawesome.com/) was used to obtain icons for the website.
@@ -32,6 +33,7 @@ This project was created for an imaginary hair salon website designed to allow c
 * [GitHub](https://github.com/) is used to store the projects code after being pushed from Git.
 * [Google fonts](https://fonts.google.com/) were used to import the 'Meow Script' and 'Montserrat' fonts into the style.css file.
 * [Google Developer Tools](https://developer.chrome.com/docs/devtools/) was used for testing responsiveness of the website.
+* [Lucid](https://lucid.app/users/login#/login)
 * [TinyPNG](https://tinypng.com/) was used to optimise images for the web.
 
 ## Testing
