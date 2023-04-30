@@ -39,6 +39,12 @@ All user stories and their acceptance criteria are availabe [here](https://githu
     * As an Authenticated User, I can edit my bookings so that I can make changes to my appointment if required.
     * As an Authenticated User, I can cancel my bookings so that I can notify the salon if the appointment is no longer required.
 
+### Agile methodology
+
+Agile approach has been applied to develop this application. GitHub projects board  was used to create user stories and manage the work.
+
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/kanban_board.png)
+
 ### Design choices
 
 #### Typography
