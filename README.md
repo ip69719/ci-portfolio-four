@@ -2,6 +2,11 @@
 
 # Eleganza Hair Salon
 
+## Project Overview
+This project was created for an imaginary hair salon website designed to allow customers to make, edit and delete appointments.
+
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/responsive_img.png)
+
 ### Project Goals
 
 ### Design choices
