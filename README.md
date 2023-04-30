@@ -41,6 +41,19 @@ All user stories and their acceptance criteria are availabe [here](https://githu
 
 ### Design choices
 
+#### Typography
+
+* Meow Script font was used to create an attractive logo for the site.
+* Montserrat was chosen as the main font because it is a versatile font that works well for web and mobile interfaces.
+
+#### Images
+
+* High quality images were selected to support the project goal. 
+
+#### Colour Palette
+
+* Colours were chosen to create a luxurious and elegant brand vibe. 
+
 ### Wireframes
 
 ## Features
