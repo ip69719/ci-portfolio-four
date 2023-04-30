@@ -36,6 +36,10 @@ This project was created for an imaginary hair salon website designed to allow c
 
 ## Testing
 
+### Defect Tracking
+* Issues are documented and tracked on [GitHub](https://github.com/ip69719/ci-portfolio-four/issues?q=is%3Aopen+is%3Aissue+label%3Abug).
+* I used 'Bug' as a label to distinguish defects from user stories.
+
 ## Deployment
 
 ## Credits
