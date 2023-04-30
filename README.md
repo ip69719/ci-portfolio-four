@@ -8,7 +8,7 @@ This project was created for an imaginary hair salon website designed to allow c
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/responsive_img.png)
 
 ### Project Goals
-The main goal of this project is to allow users to manage their hair salon appointments.
+The main goal of this project is to allow users to manage their hair salon appointments online.
 
 ## User experience
 
@@ -41,11 +41,9 @@ All user stories and their acceptance criteria are availabe [here](https://githu
 
 ### Agile methodology
 
-Agile approach has been applied to develop this application. GitHub projects board  was used to create user stories and manage the work.
+Agile approach has been applied to develop this application. GitHub [projects board](https://github.com/users/ip69719/projects/4) was used to create user stories and manage the work.
 
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/kanban_board.png)
-
-### Agile methodology
 
 ### Database diagram
 
