@@ -70,13 +70,14 @@ All user stories and their acceptance criteria are availabe [here](https://githu
 
 * [Bootstrap v 4.6](https://getbootstrap.com/) CSS framework was used for creating responsive design.
 * [Django](https://www.djangoproject.com/) web framework was used to create the application.
-* [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/index.html) used for styling of all forms
+* [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/index.html) used for styling of all forms.
+* [Django AllAuth](https://django-allauth.readthedocs.io/en/latest/) used to implement registration and authentication functionality.
 * [Font Awesome](https://fontawesome.com/) was used to obtain icons for the website.
 * [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 * [GitHub](https://github.com/) is used to store the projects code after being pushed from Git.
 * [Google fonts](https://fonts.google.com/) were used to import the 'Meow Script' and 'Montserrat' fonts into the style.css file.
 * [Google Developer Tools](https://developer.chrome.com/docs/devtools/) was used for testing responsiveness of the website.
-* [Lucid](https://lucid.app/users/login#/login)
+* [Lucid](https://lucid.app/users/login#/login) was used to create the ERD for the project.
 * [TinyPNG](https://tinypng.com/) was used to optimise images for the web.
 
 ## Testing
