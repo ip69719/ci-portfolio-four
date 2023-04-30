@@ -62,3 +62,14 @@ def edit_booking(request, appointment_id):
         'form': form
     }
     return render(request, 'edit_booking.html', context)
+
+
+def cancel_booking(request, appointment_id):
+    """
+    A view to delete an existing booking.
+    User is redirected to his/her profile page.
+    """
+    # get a copy of the appointment record from db
+    appointment = get_object_or_404(Appointment, id=appointment_id)
+    appointment.delete()
+    return redirect('my_profile')
