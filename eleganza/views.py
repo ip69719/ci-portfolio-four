@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from .models import Appointment
 from .forms import AppointmentForm
 
@@ -40,3 +40,25 @@ def book(request):
         'form': form
     }
     return render(request, 'book.html', context)
+
+
+def edit_booking(request, appointment_id):
+    """
+    A view to edit an existing booking.
+    Form is saved if inputs are valid and user is
+    redirected to his/her profile page.
+    """
+    # get a copy of the appointment record from db
+    appointment = get_object_or_404(Appointment, id=appointment_id)
+    if request.method == 'POST':
+        form = AppointmentForm(request.POST, instance=appointment)
+        appointment = form.save(commit=False)
+        if form.is_valid():
+            appointment.customer = request.user
+            appointment.save()
+            return redirect('my_profile')
+    form = AppointmentForm(instance=appointment)
+    context = {
+        'form': form
+    }
+    return render(request, 'edit_booking.html', context)
