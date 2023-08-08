@@ -104,6 +104,21 @@ Agile approach has been applied to develop this application. GitHub [projects bo
 * I used 'Bug' as a label to distinguish defects from user stories.
 
 ## Deployment
+The project was deployed to Heroku using the following steps:
+
+1. Log in to Heroku and go to the Dashboard.
+1. Click "New" in the top right corner and select "Create a new app".
+1. Give the app a name and select the closest region, then click 'Create app".
+1. Go to "Settings" tab and scroll down to the “Config Vars” section.
+    1. click on "Reveal Config Vars".
+    1. In the field for key, enter CREDS.
+    1. Copy and paste the entire content into the value field, then click “Add”.
+    1. Configure variable for key PORT and value 8000.
+1. Go to "Deploy" tab and scroll to the “Deployment method” section.
+1. Click on "GitHub".
+1. Locate the [GitHub Repository](https://github.com/ip69719/ci-portfolio-four) then click "Connect".
+1. In "Deploy" tab scroll down to "Manual deploy" section, select main branch and click on "Deploy Branch"
+1. Click "View" to launch the app.
 
 ## Credits
 
