@@ -119,6 +119,19 @@ The project was deployed to Heroku using the following steps:
 1. Locate the [GitHub Repository](https://github.com/ip69719/ci-portfolio-four) then click "Connect".
 1. In "Deploy" tab scroll down to "Manual deploy" section, select main branch and click on "Deploy Branch"
 1. Click "View" to launch the app.
+1. Create a database
+1. Log in to [ElephantSQL.com](https://www.elephantsql.com/).
+1. Click "Create New Instance".
+1. Name the "plan" and select the "Tiny Turtle (free)" plan.
+1. Select "Select Region".
+1. Select the nearest data center, then click "Review".
+1. Check the details are correct and then click "Create instance".
+1. Return to the ElephantSQL dashboard and click on the database instance name for this project.
+1. In the URL section, click the copy icon to copy the database URL.
+
+
+
+
 
 ## Credits
 
