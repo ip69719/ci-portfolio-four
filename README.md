@@ -104,36 +104,39 @@ Agile approach has been applied to develop this application. GitHub [projects bo
 * I used 'Bug' as a label to distinguish defects from user stories.
 
 ## Deployment
+
 The project was deployed to Heroku using the following steps:
 
-1. Log in to Heroku and go to the Dashboard.
-1. Click "New" in the top right corner and select "Create a new app".
-1. Give the app a name and select the closest region, then click 'Create app".
-1. Go to "Settings" tab and scroll down to the “Config Vars” section.
-    1. click on "Reveal Config Vars".
+**Create Heroku app**
+* Log in to [Heroku](https://id.heroku.com/login) and go to the Dashboard.
+* Click "New" in the top right corner and select "Create a new app".
+* Give the app a name and select the closest region, then click "Create app".
+
+**Create a database**
+* Log in to [ElephantSQL.com](https://www.elephantsql.com/).
+* Click "Create New Instance".
+* Name the "plan" and select the "Tiny Turtle (free)" plan.
+* Select "Select Region".
+* Select the nearest data center, then click "Review".
+* Check the details are correct and then click "Create instance".
+* Return to the ElephantSQL dashboard and click on the database instance name for this project.
+* In the URL section, click the copy icon to copy the database URL.
+
+**Configure Environment Variables in Heroku**
+* Return to the Heroku dashboard open the Settings tab.
+* Go to "Settings" tab and scroll down to the “Config Vars” section.
+* Click on "Reveal Config Vars".
     1. In the field for key, enter DATABASE_URL.
-    1. Copy and paste database URL from ElephantSQLinto the value field, then click “Add”.
-    1. Configure variable for key PORT and value 8000.
-    1. Configure variable for key SECRET_KEY.
-1. Go to "Deploy" tab and scroll to the “Deployment method” section.
-1. Click on "GitHub".
-1. Locate the [GitHub Repository](https://github.com/ip69719/ci-portfolio-four) then click "Connect".
-1. In "Deploy" tab scroll down to "Manual deploy" section, select main branch and click on "Deploy Branch"
-1. Click "View" to launch the app.
-1. Create a database
-1. Log in to [ElephantSQL.com](https://www.elephantsql.com/).
-1. Click "Create New Instance".
-1. Name the "plan" and select the "Tiny Turtle (free)" plan.
-1. Select "Select Region".
-1. Select the nearest data center, then click "Review".
-1. Check the details are correct and then click "Create instance".
-1. Return to the ElephantSQL dashboard and click on the database instance name for this project.
-1. In the URL section, click the copy icon to copy the database URL.
-Connecting Heroku app to your database.
-1. Return to the Heroku dashboard open the Settings tab
+    1. Copy and paste database URL from ElephantSQL into the value field, then click “Add”.
+    1. Configure variable for key PORT and value 8000, then click “Add”.
+    1. Configure variable for key SECRET_KEY by setting the value to your chosen key, then click “Add”.
 
-
-
+**Heroku deployment**
+* Go to "Deploy" tab and scroll to the “Deployment method” section.
+* Click on "GitHub".
+* Locate the [GitHub Repository](https://github.com/ip69719/ci-portfolio-four) then click "Connect".
+* In "Deploy" tab scroll down to "Manual deploy" section, select main branch and click on "Deploy Branch".
+* Click "View" to launch the app.
 
 
 ## Credits
