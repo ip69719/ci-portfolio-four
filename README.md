@@ -111,9 +111,10 @@ The project was deployed to Heroku using the following steps:
 1. Give the app a name and select the closest region, then click 'Create app".
 1. Go to "Settings" tab and scroll down to the “Config Vars” section.
     1. click on "Reveal Config Vars".
-    1. In the field for key, enter CREDS.
-    1. Copy and paste the entire content into the value field, then click “Add”.
+    1. In the field for key, enter DATABASE_URL.
+    1. Copy and paste database URL from ElephantSQLinto the value field, then click “Add”.
     1. Configure variable for key PORT and value 8000.
+    1. Configure variable for key SECRET_KEY.
 1. Go to "Deploy" tab and scroll to the “Deployment method” section.
 1. Click on "GitHub".
 1. Locate the [GitHub Repository](https://github.com/ip69719/ci-portfolio-four) then click "Connect".
@@ -128,6 +129,8 @@ The project was deployed to Heroku using the following steps:
 1. Check the details are correct and then click "Create instance".
 1. Return to the ElephantSQL dashboard and click on the database instance name for this project.
 1. In the URL section, click the copy icon to copy the database URL.
+Connecting Heroku app to your database.
+1. Return to the Heroku dashboard open the Settings tab
 
 
 
