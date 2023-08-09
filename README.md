@@ -77,6 +77,7 @@ Agile approach has been applied to develop this application. GitHub [projects bo
 ### Frameworks, Libraries & Programs Used
 
 * [Bootstrap v 4.6](https://getbootstrap.com/) CSS framework was used for creating responsive design.
+* [Cloudinary](https://cloudinary.com/) is used to host all static files and images.
 * [Django](https://www.djangoproject.com/) web framework was used to create the application.
 * [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/index.html) used for styling of all forms.
 * [Django AllAuth](https://django-allauth.readthedocs.io/en/latest/) used to implement registration and authentication functionality.
