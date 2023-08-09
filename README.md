@@ -126,10 +126,10 @@ The project was deployed to Heroku using the following steps:
 * Return to the Heroku dashboard open the Settings tab.
 * Go to "Settings" tab and scroll down to the “Config Vars” section.
 * Click on "Reveal Config Vars".
-    1. In the field for key, enter DATABASE_URL.
-    1. Copy and paste database URL from ElephantSQL into the value field, then click “Add”.
-    1. Configure variable for key PORT and value 8000, then click “Add”.
-    1. Configure variable for key SECRET_KEY by setting the value to your chosen key, then click “Add”.
+    * In the field for key, enter DATABASE_URL.
+    * Copy and paste database URL from ElephantSQL into the value field, then click “Add”.
+    * Configure variable for key PORT and value 8000, then click “Add”.
+    * Configure variable for key SECRET_KEY by setting the value to your chosen key, then click “Add”.
 
 **Heroku deployment**
 * Go to "Deploy" tab and scroll to the “Deployment method” section.
