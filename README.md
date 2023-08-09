@@ -137,7 +137,8 @@ The project was deployed to Heroku using the following steps:
 * Click on "GitHub".
 * Locate the [GitHub Repository](https://github.com/ip69719/ci-portfolio-four) then click "Connect".
 * In "Deploy" tab scroll down to "Manual deploy" section, select main branch and click on "Deploy Branch".
-* Click "View" to launch the app.
+* Click "View" to launch the app. 
+* [Link to the live project](https://eleganza-hair-salon.herokuapp.com/)
 
 
 ## Credits
