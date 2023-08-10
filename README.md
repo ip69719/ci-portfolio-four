@@ -77,7 +77,7 @@ Agile approach has been applied to develop this application. GitHub [projects bo
 ### Frameworks, Libraries & Programs Used
 
 * [Bootstrap v 4.6](https://getbootstrap.com/) CSS framework was used for creating responsive design.
-* [Cloudinary](https://cloudinary.com/) is used to host all static files and images.
+* [Cloudinary](https://cloudinary.com/) is used to store all static files and images.
 * [Django](https://www.djangoproject.com/) web framework was used to create the application.
 * [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/index.html) used for styling of all forms.
 * [Django AllAuth](https://django-allauth.readthedocs.io/en/latest/) used to implement registration and authentication functionality.
@@ -131,6 +131,10 @@ The project was deployed to Heroku using the following steps:
     * Copy and paste database URL from ElephantSQL into the value field, then click “Add”.
     * Configure variable for key PORT and value 8000, then click “Add”.
     * Configure variable for key SECRET_KEY by setting the value to your chosen key, then click “Add”.
+    * Configure variable for key CLOUDINARY_URL:
+        * Log in to [Cloudinary](https://cloudinary.com/)
+        * Click on the copy icon next to API Environment variable.
+        * Paste Cloudinary URL into the value field for CLOUDINARY_URL key in Heroku, then click “Add”. Note that *"CLOUDINARY_URL ="* needs to be removed from the beginning of the value copied above.
 
 **Heroku deployment**
 * Go to "Deploy" tab and scroll to the “Deployment method” section.
