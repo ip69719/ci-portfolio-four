@@ -28,10 +28,10 @@ class Appointment(models.Model):
     """
     customer = models.ForeignKey(
         User, on_delete=models.CASCADE)
-    first_name = models.CharField(max_length=35, null=True, blank=True)
-    last_name = models.CharField(max_length=35, null=True, blank=True)
-    phone = models.CharField(max_length=15, null=True, blank=True)
-    email = models.EmailField(null=True, blank=True)
+    first_name = models.CharField(max_length=40)
+    last_name = models.CharField(max_length=40)
+    phone = models.CharField(max_length=10)
+    email = models.EmailField()
     date = models.DateField()
     time = models.CharField(max_length=5, choices=TIME_CHOICES,
                             default="08:00")
