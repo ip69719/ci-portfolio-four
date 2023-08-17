@@ -161,6 +161,8 @@ The project was deployed to Heroku using the following steps:
 * Learned how to hide elements with Bootstrap from [this](https://stackoverflow.com/questions/57039195/how-to-hide-element-for-mobile-device-with-bootstrap4) Stack Overflow post.
 * Learned how to use Django Form Fields, Widgets and Attributes from [this](https://ordinarycoders.com/blog/article/using-django-form-fields-and-widgets) Ordinary Coders
 blog written by Jaysha.
+* Learned how to create custom 404 and 500 error pages in Django from [this](https://pythoncircle.com/post/40/designing-custom-404-and-500-error-pages-in-django/) PYTHON CIRCLE
+blog and [this](https://stackoverflow.com/questions/17662928/django-creating-a-custom-500-404-error-page) Stack Overflow post.
 
 ### Acknowledgements
 
