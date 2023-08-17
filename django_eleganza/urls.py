@@ -21,3 +21,6 @@ urlpatterns = [
     path('', include('eleganza.urls')),
     path("accounts/", include("allauth.urls")),
 ]
+
+handler404 = 'eleganza.views.error_404'
+handler500 = 'eleganza.views.error_500'

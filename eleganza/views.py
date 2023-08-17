@@ -38,6 +38,9 @@ def book(request):
             messages.success(
                 request, f'Thank you! We look forward to seeing you.')
             return redirect('my_profile')
+        else:
+            # returns error 500 template if form does not pass validation
+            return render(request, 'error_500.html')
     form = AppointmentForm()
     context = {
         'form': form
@@ -82,3 +85,17 @@ def cancel_booking(request, appointment_id):
     messages.success(
         request, f'Appointment cancelled! We look forward to seeing you again soon.')  # noqa:E501
     return redirect('my_profile')
+
+
+def error_500(request, *args, **argv):
+    """
+    Function to display custom error_500.html page
+    """
+    return render(request, 'error_500.html')
+
+
+def error_404(request, exception):
+    """
+    Function to display custom error_404.html page
+    """
+    return render(request, 'error_404.html')
