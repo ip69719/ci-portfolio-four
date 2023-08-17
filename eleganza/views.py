@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import Appointment
 from .forms import AppointmentForm
+from django.contrib import messages
 
 
 def index(request):
@@ -34,6 +35,8 @@ def book(request):
         if form.is_valid():
             appointment.customer = request.user
             appointment.save()
+            messages.success(
+                request, f'Thank you! We look forward to seeing you.')
             return redirect('my_profile')
     form = AppointmentForm()
     context = {
