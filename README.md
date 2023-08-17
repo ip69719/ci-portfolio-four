@@ -162,6 +162,7 @@ The project was deployed to Heroku using the following steps:
 * Learned how to use Django Form Fields, Widgets and Attributes from [this](https://ordinarycoders.com/blog/article/using-django-form-fields-and-widgets) Ordinary Coders
 blog written by Jaysha.
 * Learned how to create custom 404 and 500 error pages in Django from [this](https://pythoncircle.com/post/40/designing-custom-404-and-500-error-pages-in-django/) Python Circle blog and [this](https://stackoverflow.com/questions/17662928/django-creating-a-custom-500-404-error-page) Stack Overflow post.
+* [Article](https://www.brennantymrak.com/articles/django-custom-form-validation) written by Brennan Tymrak and GeeksforGeeks [Form validation using django](https://www.geeksforgeeks.org/python-form-validation-using-django/) tutorial were referenced to create custom form validations.
 
 ### Acknowledgements
 
