@@ -48,8 +48,9 @@ def book(request):
 def edit_booking(request, appointment_id):
     """
     A view to edit an existing booking.
-    Form is saved if inputs are valid and user is
-    redirected to his/her profile page.
+    Form is saved if inputs are valid. 
+    User is presented with a confirmation message and
+    is redirected to his/her profile page.
     """
     # get a copy of the appointment record from db
     appointment = get_object_or_404(Appointment, id=appointment_id)
@@ -59,6 +60,8 @@ def edit_booking(request, appointment_id):
         if form.is_valid():
             appointment.customer = request.user
             appointment.save()
+            messages.success(
+                request, f'Your appointment has changed! We look forward to seeing you.')  # noqa:E501
             return redirect('my_profile')
     form = AppointmentForm(instance=appointment)
     context = {
@@ -70,9 +73,12 @@ def edit_booking(request, appointment_id):
 def cancel_booking(request, appointment_id):
     """
     A view to delete an existing booking.
-    User is redirected to his/her profile page.
+    User is presented with a confirmation message and
+    redirected to his/her profile page.
     """
     # get a copy of the appointment record from db
     appointment = get_object_or_404(Appointment, id=appointment_id)
     appointment.delete()
+    messages.success(
+        request, f'Appointment cancelled! We look forward to seeing you again soon.')  # noqa:E501
     return redirect('my_profile')
