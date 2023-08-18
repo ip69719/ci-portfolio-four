@@ -26,26 +26,31 @@ def all_appointments(request):
 def book(request):
     """
     A view to display the booking form to the user.
-    Form is saved if inputs are valid and user is
-    redirected to his/her profile page.
+    Form is saved if inputs are valid and the user is redirected to his/her
+    profile page. If user inputs are invalid then the entered booking details
+    are displayed with validation errors.
+
+    The else statement within the function was written with reference to
+    GeeksforGeeks tutorial:
+    https://www.geeksforgeeks.org/python-form-validation-using-django/
     """
     if request.method == 'POST':
         form = AppointmentForm(request.POST)
-        appointment = form.save(commit=False)
         if form.is_valid():
+            appointment = form.save(commit=False)
             appointment.customer = request.user
             appointment.save()
             messages.success(
                 request, f'Thank you! We look forward to seeing you.')
             return redirect('my_profile')
         else:
-            # returns error 500 template if form does not pass validation
-            return render(request, 'error_500.html')
-    form = AppointmentForm()
-    context = {
-        'form': form
-    }
-    return render(request, 'book.html', context)
+            return render(request, 'book.html', {'form': form})
+    else:
+        form = AppointmentForm(None)
+        context = {
+            'form': form
+            }
+        return render(request, 'book.html', context)
 
 
 def edit_booking(request, appointment_id):
