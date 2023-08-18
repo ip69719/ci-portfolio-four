@@ -16,9 +16,13 @@ class AppointmentForm(forms.ModelForm):
 
     def clean(self):
         """
-        method used for multi-field custom validation.
-        Code adopted from GeeksforGeeks tutorial
+        Method used for multi-field custom validation.
+        Code to display field specific validation errors adopted from
+        GeeksforGeeks tutorial:
         https://www.geeksforgeeks.org/python-form-validation-using-django/
+
+        The code to check if appointment conflict exists was written by
+        my Mentor Malia Havlicek
         """
         # data from the form is fetched using super function
         cleaned_data = super().clean()
@@ -27,6 +31,14 @@ class AppointmentForm(forms.ModelForm):
         first_name = cleaned_data.get("first_name")
         last_name = cleaned_data.get("last_name")
         phone = cleaned_data.get("phone")
+        date = self.cleaned_data.get("date")
+        time = self.cleaned_data.get("time")
+
+        # this code to check conflicts was written by my Mentor Malia Havlicek
+        conflicts = Appointment.objects.filter(date=date).filter(time=time).exclude(pk=self.instance.pk)  # noqa
+        if conflicts.exists():
+            raise forms.ValidationError(
+                "This appointment conflicts with an existing appointment.")
 
         # condition to be met for the first_name field
         if len(first_name) < 2:
