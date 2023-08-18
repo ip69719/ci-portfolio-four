@@ -61,6 +61,20 @@ class AppointmentForm(forms.ModelForm):
             self._errors['phone'] = self.error_class(
                 ['Please enter a valid phone number. It cannot contain letters or special characters.'])  # noqa:E501
 
+        # check if time slot is in the past
+        time_now = datetime.datetime.now()
+        # extract time and convert it into datetime.time object
+        time_now_str = datetime.datetime.strftime(time_now, '%H:%M')
+        time_now_obj = datetime.datetime.strptime(time_now_str, '%H:%M').time()
+        # convert time slot selected by the user into datetime.time object
+        input_time_str = time
+        input_time_obj = datetime.datetime.strptime(
+            input_time_str, '%H:%M').time()
+        # raise error if time slot selected is in the past
+        if input_time_obj <= time_now_obj:
+            self._errors['time'] = self.error_class(
+                ['The time slot you selected is in the past'])
+
         return cleaned_data
 
     class Meta:
