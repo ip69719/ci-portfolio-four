@@ -55,27 +55,36 @@ def book(request):
 
 def edit_booking(request, appointment_id):
     """
-    A view to edit an existing booking.
-    Form is saved if inputs are valid. 
-    User is presented with a confirmation message and
-    is redirected to his/her profile page.
+    A view to edit an existing booking. Displays form which is prefilled with
+    existing appointment details that the User wants to edit.
+    Form is saved if User inputs are valid. A confirmation message is
+    displayed and the User is redirected to his/her profile page.
+    If user inputs are invalid then the entered booking details
+    are displayed on the form with validation errors.
+
+    The else statement within the function was written with reference to
+    GeeksforGeeks tutorial:
+    https://www.geeksforgeeks.org/python-form-validation-using-django/
     """
     # get a copy of the appointment record from db
     appointment = get_object_or_404(Appointment, id=appointment_id)
     if request.method == 'POST':
-        form = AppointmentForm(request.POST, instance=appointment)
-        appointment = form.save(commit=False)
+        form = AppointmentForm(request.POST, instance=appointment)    
         if form.is_valid():
+            appointment = form.save(commit=False)
             appointment.customer = request.user
             appointment.save()
             messages.success(
                 request, f'Your appointment has changed! We look forward to seeing you.')  # noqa:E501
             return redirect('my_profile')
-    form = AppointmentForm(instance=appointment)
-    context = {
-        'form': form
-    }
-    return render(request, 'edit_booking.html', context)
+        else:
+            return render(request, 'edit_booking.html', {'form': form})
+    else:
+        form = AppointmentForm(instance=appointment)
+        context = {
+            'form': form
+            }
+        return render(request, 'edit_booking.html', context)
 
 
 def cancel_booking(request, appointment_id):
