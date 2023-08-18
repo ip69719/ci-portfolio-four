@@ -13,11 +13,13 @@ class DateInput(forms.DateInput):
 
 
 class AppointmentForm(forms.ModelForm):
-    """
-    Function used for multi-field validation
-    """
-    def clean(self):
 
+    def clean(self):
+        """
+        method used for multi-field custom validation.
+        Code adopted from GeeksforGeeks tutorial
+        https://www.geeksforgeeks.org/python-form-validation-using-django/
+        """
         # data from the form is fetched using super function
         cleaned_data = super().clean()
 
