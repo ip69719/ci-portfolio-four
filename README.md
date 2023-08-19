@@ -266,6 +266,16 @@ If the server encounters an unexpected condition that prevents it from fulfillin
 * Issues are documented and tracked on [GitHub](https://github.com/ip69719/ci-portfolio-four/issues?q=is%3Aopen+is%3Aissue+label%3Abug).
 * I used 'Bug' as a label to distinguish defects from user stories.
 
+### Unfixed Bugs
+
+#### Users can select time slots which are in the past
+
+I created a custom validation on the time field to prevent users from selecting time slots which are in the past. This solution only looks at times but ignores dates, so it resulted in another bug which did not allow users to submit bookings for future dates. In the example below, the current date is 20 Aug 2023 and the user attempts to book an appointment for 1 Sept 2023. The validation error “The time slot you selected is in the past” is shown on the form but it is incorrect.
+
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/testing/bug_1.png)
+
+I was not able to resolve this bug due to the project deadline, so I decided to remove the code associated with time field validation because of the severity of the issue.
+
 ## Deployment
 
 The project was deployed to Heroku using the following steps:
