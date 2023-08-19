@@ -123,7 +123,7 @@ The middle section of the homepage contains welcoming text highlighting industry
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/welcome.png)
 
 ### User Authentication
-User authentication is handled by Django-Allauth module which has validations for username/password verification and email verification.
+User authentication is handled by the Django-Allauth module, which has validations for username/password verification and email verification.
 
 #### Sign up
 * New users will have to sign up for a free account using the input form.
@@ -196,7 +196,7 @@ Authenticated users have the ability to update their existing bookings by clicki
 
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/edit_booking.png)
 
-If inputs meet the required conditions, then the updated appointment details will be saved when the user clicks the “Update” button. A message will be displayed at the top of the site confirming that the appointment has been successfully updated. Then, the user will be redirected to the Appointments page.
+If inputs meet the required conditions, the user can click the “Update” button to save the updated appointment details; a message will confirm the successful update at the top of the site. Then, the user will be redirected to the Appointments page.
 
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/edit_confirm_msg.png)
 
@@ -208,7 +208,7 @@ If the user chooses “Cancel” then the appointment will be deleted from the m
 
 ### Admin panel
 
-The admin can access the admin panel by logging in with the superuser details. The admin will be able to get an overview of all the appointments and alter any of the information.
+By logging in with the superuser details, the admin can access the admin panel and get an overview of all the appointments. The admin can also alter any of the information.”
 
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/admin.png)
 
