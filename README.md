@@ -49,6 +49,8 @@ Agile approach has been applied to develop this application. GitHub [projects bo
 
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/EDR.png)
 
+### Design choices
+
 #### Typography
 
 * Meow Script font was used to create an attractive logo for the site.
@@ -63,6 +65,18 @@ Agile approach has been applied to develop this application. GitHub [projects bo
 * Colours were chosen to create a luxurious and elegant brand vibe. 
 
 ### Wireframes
+
+The website has been designed with simplicity in mind. Each page contains only key information.
+The wireframes were created at the start of the project. The final website differs slightly form the inital wireframes.
+
+I decided that single-column design is the best option for presenting the content on smaller devices such as mobile phones.
+
+* Homepage
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/wireframes/eleganza_homepage.png)
+* Booking form
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/wireframes/eleganza_booking_form.png)
+* Profile page
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/wireframes/eleganza_profile_page.png)
 
 ## Features
 
