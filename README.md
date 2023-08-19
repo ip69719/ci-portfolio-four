@@ -43,11 +43,11 @@ All user stories and their acceptance criteria are availabe [here](https://githu
 
 Agile approach has been applied to develop this application. GitHub [projects board](https://github.com/users/ip69719/projects/4) was used to create user stories and manage the work.
 
-![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/kanban_board.png)
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/kanban_board.png)
 
 ### Database diagram
 
-![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/EDR.png)
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/EDR.png)
 
 ### Design choices
 I used [Bootstrap](https://getbootstrap.com/) CSS framework because it allows to design websites quickly and effectively.
@@ -74,13 +74,13 @@ The wireframes were created at the start of the project. The final website diffe
 I decided that single-column design is the best option for presenting the content on smaller devices such as mobile phones.
 
 #### Homepage
-![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/wireframes/eleganza_homepage.png)
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/wireframes/eleganza_homepage.png)
 
 #### Booking form
-![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/wireframes/eleganza_booking_form.png)
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/wireframes/eleganza_booking_form.png)
 
 #### User Profile page
-![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/wireframes/eleganza_profile_page.png)
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/wireframes/eleganza_profile_page.png)
 
 ## Features
 
@@ -89,16 +89,16 @@ I decided that single-column design is the best option for presenting the conten
 #### Navigation bar
 All pages have **Navigation Bar** which was created using [Bootstrap](https://getbootstrap.com/) navbar component.
 
-![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/navbar.png)
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/navbar.png)
 
 The **Mobile Collapse Button** will appear on smaller screens. The **Navigation Bar** will show as a dropdown when the button is clicked.
 
-![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/navbar_small.png)
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/navbar_small.png)
 
 #### Footer
 The **Footer** displays some of the salon's key information. It is split into three sections: Logo and links to social media, Salon Contact and Opening hours.
 
-![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/footer.png)
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/footer.png)
 
 ### Home page
 
@@ -108,12 +108,12 @@ A hero image is placed at the top of a website to create a strong visual impress
 #### Call-to-action (CTA) buttons
 CTA button encourages visitors to book an appointment. When clicked, it brings users to the appointment booking page.
 
-![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/hero.png)
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/hero.png)
 
 #### Welcome message and interior image
 The middle section of the homepage contains welcoming text highlighting industry awards. It contains an image of the salon interior that sets the tone of the business.
 
-![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/welcome.png)
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/welcome.png)
 
 ### User Authentication
 User authentication is handled by Django-Allauth module which has validations for username/password verification and email verification.
@@ -123,29 +123,60 @@ User authentication is handled by Django-Allauth module which has validations fo
 * Already registered users can click on the "sign in" link to get redirected to the **Login** page.
 * Once signed up, a message will be displayed at the top of the site confirming that the user has successfully logged in.
 
-![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/sign_up.png)
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/sign_up.png)
 
-![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/sign_up_msg.png)
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/sign_up_msg.png)
 
 #### Login
 * The login page has an input form where the users will be required to enter their username and password.
 * New users can click on the "sign up" link to get redirected to the **Sign Up** page.
 * Once signed in, a message will be displayed at the top of the site confirming that the user has successfully logged in.
 
-![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/sign_in.png)
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/sign_in.png)
 
-![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/sign_in_msg.png)
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/sign_in_msg.png)
 
 #### Logout
 * Logged-in users can log out of the application by clicking on the **Logout** link on the navigation bar.
 * Logged-in users will be asked to confirm if they want to log out.
 * Once confirmed, a message will be displayed at the top of the site confirming that the user has successfully logged out.
 
-![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/sign_out.png)
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/sign_out.png)
 
-![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/sign_out_msg.png)
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/sign_out_msg.png)
 
-### Booking form
+### Appointment booking form
+
+The appointment booking form is accessible to authenticated users only. If a user clicks on the CTA button but he/she is not signed in, then a message is displayed requesting the user to log in or sign up.
+
+![]()
+
+The authenticated user will be presented with a form to fill out once the “Book now” button is clicked. Choosing the date from a calendar and selecting a time slot from a predefined list is made easy with interactive dropdowns.
+
+![]()
+
+![]()
+
+If the user inputs to the form are valid, then an appointment record will be saved. A message will be displayed at the top of the site confirming that an appointment has been successfully created. The user will be redirected to the Appointments page.
+
+![]()
+
+![]()
+
+#### Booking form validations
+User inputs are validated using both built-in and custom built validations. Errors are displayed on the form if conditions are not met.
+
+* **First name** must be at least two characters long
+* **Last name** must be at least two characters long
+* **Phone** must be at least eight characters long and must contain digits only
+* **Email** address must have the following pattern: username + @ symbol + domain name
+
+#### Avoid double bookings
+
+The same user cannot book an appointment for the same date and time slot. An error message is displayed at the top of the form if a conflict exists.
+
+![]()
+
 ### Appointments
 
 ### Admin panel
