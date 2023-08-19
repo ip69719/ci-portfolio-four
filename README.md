@@ -67,6 +67,7 @@ Agile approach has been applied to develop this application. GitHub [projects bo
 ### Wireframes
 
 The website has been designed with simplicity in mind. Each page contains only key information.
+
 The wireframes were created at the start of the project. The final website differs slightly form the inital wireframes.
 
 I decided that single-column design is the best option for presenting the content on smaller devices such as mobile phones.
@@ -75,7 +76,7 @@ I decided that single-column design is the best option for presenting the conten
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/wireframes/eleganza_homepage.png)
 * Booking form
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/wireframes/eleganza_booking_form.png)
-* Profile page
+* User Profile page
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/wireframes/eleganza_profile_page.png)
 
 ## Features
