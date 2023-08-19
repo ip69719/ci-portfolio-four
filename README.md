@@ -45,6 +45,13 @@ Agile approach has been applied to develop this application. GitHub [projects bo
 
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/kanban_board.png)
 
+
+### CRUD Functionality for users
+* Create: A user can book a new appointment.
+* Read: A user can view the details of an existing appointment.
+* Update: A user can change the details of an existing appointment.
+* Delete: A user can cancel an existing appointment.
+
 ### Database diagram
 
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/EDR.png)
