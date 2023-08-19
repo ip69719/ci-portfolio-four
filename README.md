@@ -101,9 +101,19 @@ The **Footer** displays some of the salon's key information. It is split into th
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/footer.png)
 
 ### Home page
-**Hero image**
-**Call-to-action (CTA) buttons**
-**Footer**
+
+#### Hero image
+A hero image is placed at the top of a website to create a strong visual impression. It incorporates both a high-quality image and text to represent the brand.
+
+#### Call-to-action (CTA) buttons
+CTA button encourages visitors to book an appointment. When clicked, it brings users to the appointment booking page.
+
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/hero.png)
+
+#### Welcome message and interior image
+The middle section of the homepage contains welcoming text highlighting industry awards. It contains an image of the salon interior that sets the tone of the business.
+
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/welcome.png)
 
 ### Sign up
 ### Login
