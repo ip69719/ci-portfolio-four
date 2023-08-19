@@ -187,6 +187,18 @@ The admin can access the admin panel by logging in with the superuser details. T
 
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/admin.png)
 
+### Error 404 - Page Not Found Error
+
+Users are redirected to a custom error 404 Page Not Found page if the URL is mistyped or does not exist.
+
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/404.png)
+
+### Error 500 - Internal Server Error
+
+If the server encounters an unexpected condition that prevents it from fulfilling the request, then a custom Error 500 - Internal Server Error template is displayed.
+
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/500.png)
+
 ## Technologies used
 
 ### Languages used
