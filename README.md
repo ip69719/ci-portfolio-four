@@ -257,6 +257,10 @@ If the server encounters an unexpected condition that prevents it from fulfillin
     * W3C CSS Validator [Results](https://github.com/ip69719/ci-portfolio-four/tree/main/django_eleganza/assets/documents/testing/w3c_markup_validator_results) - errors and warnings relate to Django template language and were ignored
     * CI Python Linter [Results](https://github.com/ip69719/ci-portfolio-four/tree/main/django_eleganza/assets/documents/testing/ci_python_linter) - no errors found
 
+### Manual Testing
+
+* Test cases are recorded in [this](https://docs.google.com/spreadsheets/d/1Sf8cfgagafrIxZF-q7NSt93RERGrl5QQf0XmTCEtAnM/edit#gid=0) shared google workbook.
+
 ### Defect Tracking
 
 * Issues are documented and tracked on [GitHub](https://github.com/ip69719/ci-portfolio-four/issues?q=is%3Aopen+is%3Aissue+label%3Abug).
