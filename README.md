@@ -87,16 +87,16 @@ I decided that single-column design is the best option for presenting the conten
 
 #### Navigation bar
 All pages have **Navigation Bar** which was created using [Bootstrap](https://getbootstrap.com/) navbar component.
+
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/navbar.png)
 
 The **Mobile Collapse Button** will appear on smaller screens. The **Navigation Bar** will show as a dropdown when the button is clicked.
+
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/navbar_small.png)
 
 #### Footer
-The **Footer** displays some of the salon's key information. It is split into three sections:
-* Logo and links to social media
-* Salon Contact
-* Opening hours
+The **Footer** displays some of the salon's key information. It is split into three sections: Logo and links to social media, Salon Contact and Opening hours.
+
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/footer.png)
 
 ### Home page
