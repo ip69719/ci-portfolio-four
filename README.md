@@ -181,6 +181,24 @@ The same user cannot book an appointment for the same date and time slot. An err
 
 ### Appointments
 
+Authenticated users are able to access the **Appointments** page where they can view their appointment history and manage their bookings. If the user has made bookings, then the details of each booking will be shown here along with two buttons.
+
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/booking_history_2.png)
+
+Authenticated users have the ability to update their existing bookings by clicking the "Edit" button. Once the "Edit" button is clicked, the booking form will be displayed. The form will be prefilled with details of the existing appointment.
+
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/edit_booking.png)
+
+If inputs meet the required conditions, then the updated appointment details will be saved when the user clicks the “Update” button. A message will be displayed at the top of the site confirming that the appointment has been successfully updated. Then, the user will be redirected to the Appointments page.
+
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/edit_confirm_msg.png)
+
+If the user inputs are invalid, the validation errors are displayed on the form.
+
+If the user chooses “Cancel” then the appointment will be deleted from the model. A success message is displayed confirming that the appointment has been cancelled. Then, the user is redirected back to the Appointments page.
+
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/cancel_booking.png)
+
 ### Admin panel
 
 The admin can access the admin panel by logging in with the superuser details. The admin will be able to get an overview of all the appointments and alter any of the information.
