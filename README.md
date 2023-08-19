@@ -50,6 +50,7 @@ Agile approach has been applied to develop this application. GitHub [projects bo
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/EDR.png)
 
 ### Design choices
+I used [Bootstrap](https://getbootstrap.com/) CSS framework because it allows to design websites quickly and effectively.
 
 #### Typography
 
