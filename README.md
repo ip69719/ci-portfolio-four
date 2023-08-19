@@ -149,19 +149,18 @@ User authentication is handled by Django-Allauth module which has validations fo
 
 The appointment booking form is accessible to authenticated users only. If a user clicks on the CTA button but he/she is not signed in, then a message is displayed requesting the user to log in or sign up.
 
-![]()
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/booking_unavailable.png)
 
 The authenticated user will be presented with a form to fill out once the “Book now” button is clicked. Choosing the date from a calendar and selecting a time slot from a predefined list is made easy with interactive dropdowns.
 
-![]()
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/form_1.png)
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/form_2.png)
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/form_3.png)
 
-![]()
+If the user inputs to the form are valid, then an appointment record will be saved. A message will be displayed at the top of the site confirming that an appointment has been successfully created. The user will be redirected to the **Appointments** page.
 
-If the user inputs to the form are valid, then an appointment record will be saved. A message will be displayed at the top of the site confirming that an appointment has been successfully created. The user will be redirected to the Appointments page.
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/booking_history_1.png)
 
-![]()
-
-![]()
 
 #### Booking form validations
 User inputs are validated using both built-in and custom built validations. Errors are displayed on the form if conditions are not met.
@@ -171,11 +170,14 @@ User inputs are validated using both built-in and custom built validations. Erro
 * **Phone** must be at least eight characters long and must contain digits only
 * **Email** address must have the following pattern: username + @ symbol + domain name
 
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/form_validation_1.png)
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/form_validation_2.png)
+
 #### Avoid double bookings
 
 The same user cannot book an appointment for the same date and time slot. An error message is displayed at the top of the form if a conflict exists.
 
-![]()
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/form_validation_3.png)
 
 ### Appointments
 
