@@ -72,11 +72,13 @@ The wireframes were created at the start of the project. The final website diffe
 
 I decided that single-column design is the best option for presenting the content on smaller devices such as mobile phones.
 
-* Homepage
+#### Homepage
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/wireframes/eleganza_homepage.png)
-* Booking form
+
+#### Booking form
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/wireframes/eleganza_booking_form.png)
-* User Profile page
+
+#### User Profile page
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/wireframes/eleganza_profile_page.png)
 
 ## Features
