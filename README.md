@@ -115,11 +115,38 @@ The middle section of the homepage contains welcoming text highlighting industry
 
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/welcome.png)
 
-### Sign up
-### Login
+### User Authentication
+User authentication is handled by Django-Allauth module which has validations for username/password verification and email verification.
+
+#### Sign up
+* New users will have to sign up for a free account using the input form.
+* Already registered users can click on the "sign in" link to get redirected to the **Login** page.
+* Once signed up, a message will be displayed at the top of the site confirming that the user has successfully logged in.
+
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/sign_up.png)
+
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/sign_up_msg.png)
+
+#### Login
+* The login page has an input form where the users will be required to enter their username and password.
+* New users can click on the "sign up" link to get redirected to the **Sign Up** page.
+* Once signed in, a message will be displayed at the top of the site confirming that the user has successfully logged in.
+
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/sign_in.png)
+
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/sign_in_msg.png)
+
+#### Logout
+* Logged-in users can log out of the application by clicking on the **Logout** link on the navigation bar.
+* Logged-in users will be asked to confirm if they want to log out.
+* Once confirmed, a message will be displayed at the top of the site confirming that the user has successfully logged out.
+
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/sign_out.png)
+
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/assets/documents/features_img/sign_out_msg.png)
+
 ### Booking form
 ### Appointments
-### Logout
 
 ### Admin panel
 
