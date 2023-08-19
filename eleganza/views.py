@@ -44,7 +44,8 @@ def book(request):
                 request, f'Thank you! We look forward to seeing you.')
             return redirect('my_profile')
         else:
-            return render(request, 'book.html', {'form': form})
+            # return render(request, 'book.html', {'form': form})
+            return render(request, 'error_500.html')
     else:
         form = AppointmentForm(None)
         context = {
