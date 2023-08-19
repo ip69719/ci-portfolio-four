@@ -270,7 +270,9 @@ If the server encounters an unexpected condition that prevents it from fulfillin
 
 #### Users can select time slots which are in the past
 
-I created a custom validation on the time field to prevent users from selecting time slots which are in the past. This solution only looks at times but ignores dates, so it resulted in another bug which did not allow users to submit bookings for future dates. In the example below, the current date is 20 Aug 2023 and the user attempts to book an appointment for 1 Sept 2023. The validation error “The time slot you selected is in the past” is shown on the form but it is incorrect.
+I created a custom validation on the time field to prevent users from selecting time slots which are in the past. This solution only looks at times but ignores dates, so it resulted in another bug which did not allow users to submit bookings for future dates.
+
+In the example below, the current date is 20 Aug 2023 and the user attempts to book an appointment for 1 Sept 2023. The validation error “The time slot you selected is in the past” is shown on the form but it is incorrect.
 
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/testing/bug_1.png)
 
