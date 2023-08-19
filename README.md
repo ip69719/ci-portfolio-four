@@ -183,6 +183,10 @@ The same user cannot book an appointment for the same date and time slot. An err
 
 ### Admin panel
 
+The admin can access the admin panel by logging in with the superuser details. The admin will be able to get an overview of all the appointments and alter any of the information.
+
+![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/admin.png)
+
 ## Technologies used
 
 ### Languages used
