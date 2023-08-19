@@ -94,16 +94,16 @@ I decided that a single-column design is the best option for presenting the cont
 ### All pages
 
 #### Navigation bar
-All pages have **Navigation Bar** which was created using [Bootstrap](https://getbootstrap.com/) navbar component.
+All pages have a **navigation bar** that was created using [Bootstrap](https://getbootstrap.com/) navbar component.
 
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/navbar.png)
 
-The **Mobile Collapse Button** will appear on smaller screens. The **Navigation Bar** will show as a dropdown when the button is clicked.
+The **mobile collapse button** will appear on smaller screens; the **navigation bar** will show as a dropdown when the button is clicked.
 
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/navbar_small.png)
 
 #### Footer
-The **Footer** displays some of the salon's key information. It is split into three sections: Logo and links to social media, Salon Contact and Opening hours.
+The **footer** displays some of the salon's key information. It is split into three sections: Logo and links to social media, Salon Contact and Opening hours.
 
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/footer.png)
 
@@ -113,12 +113,12 @@ The **Footer** displays some of the salon's key information. It is split into th
 A hero image is placed at the top of a website to create a strong visual impression. It incorporates both a high-quality image and text to represent the brand.
 
 #### Call-to-action (CTA) buttons
-CTA button encourages visitors to book an appointment. When clicked, it brings users to the appointment booking page.
+The CTA button encourages visitors to book an appointment. When clicked, it brings users to the appointment booking page.
 
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/hero.png)
 
 #### Welcome message and interior image
-The middle section of the homepage contains welcoming text highlighting industry awards. It contains an image of the salon interior that sets the tone of the business.
+The middle section of the homepage contains welcoming text highlighting industry awards. It also contains an image of the salon interior that sets the tone of the business.
 
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/features/welcome.png)
 
