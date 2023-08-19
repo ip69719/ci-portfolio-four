@@ -83,6 +83,20 @@ I decided that single-column design is the best option for presenting the conten
 
 ## Features
 
+### Home page
+**Navigation bar**
+**Hero image**
+**Call-to-action (CTA) buttons**
+**Footer**
+
+### Sign up
+### Login
+### Booking form
+### Appointments
+### Logout
+
+### Admin panel
+
 ## Technologies used
 
 ### Languages used
