@@ -3,7 +3,7 @@
 # Eleganza Hair Salon
 
 ## Project Overview
-This project was created for an imaginary hair salon website designed to allow customers to make, edit and delete appointments.
+This project was created for an imaginary hair salon website that allows customers to make, edit, and delete appointments.
 
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/responsive_img.png)
 
@@ -41,7 +41,7 @@ All the user stories and their acceptance criteria are available [here](https://
 
 ### Agile methodology
 
-Agile approach has been applied to develop this application. GitHub [projects board](https://github.com/users/ip69719/projects/4) was used to create user stories and manage the work.
+The agile approach has been applied to develop this application. GitHub [projects board](https://github.com/users/ip69719/projects/4) was used to create user stories and manage the work.
 
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/images/kanban_board.png)
 
@@ -76,9 +76,9 @@ I used [Bootstrap](https://getbootstrap.com/) CSS framework because it allows to
 
 The website has been designed with simplicity in mind. Each page contains only key information.
 
-The wireframes were created at the start of the project. The final website differs slightly form the inital wireframes.
+The wireframes were created at the start of the project. The final website differs slightly from the inital wireframes.
 
-I decided that single-column design is the best option for presenting the content on smaller devices such as mobile phones.
+I decided that a single-column design is the best option for presenting the content on smaller devices such as mobile phones.
 
 #### Homepage
 ![](https://github.com/ip69719/ci-portfolio-four/blob/main/django_eleganza/assets/documents/wireframes/eleganza_homepage.png)
