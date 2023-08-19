@@ -14,30 +14,30 @@ The main goal of this project is to allow users to manage their hair salon appoi
 
 ### User Stories
 
-All user stories and their acceptance criteria are availabe [here](https://github.com/users/ip69719/projects/4/views/2?visibleFields=%5B%22Title%22%2C%22Labels%22%2C%22Milestone%22%5D&sortedBy%5Bdirection%5D=asc&sortedBy%5BcolumnId%5D=Milestone&filterQuery=title%3A)
+All the user stories and their acceptance criteria are available [here](https://github.com/users/ip69719/projects/4/views/2?visibleFields=%5B%22Title%22%2C%22Labels%22%2C%22Milestone%22%5D&sortedBy%5Bdirection%5D=asc&sortedBy%5BcolumnId%5D=Milestone&filterQuery=title%3A).
 
-* Site Owner Stories
-    * As a Site Owner, I can display information about the salon so that site visitors understand the main purpose of the site.
-    * As a Business Owner, I want to move site visitors towards becoming customers of the salon so that I can grow my business.
-    * As a As a Business Owner, I want to increase awareness about the salon so that I can attract new customers.
+#### Site Owner Stories
+* As a Site Owner, I can display information about the salon so that site visitors understand the main purpose of the site.
+* As a Business Owner, I want to move site visitors towards becoming customers of the salon so that I can grow my business.
+* As a Business Owner, I want to increase awareness about the salon so that I can attract new customers.
 
-* Admin Stories
-    * As an Admin User, I want to be able to view all appointments so that so that I can organise appointments and staff rotas in advance.
-    * As an Admin User, I can add, modify or cancel appointments on Customers' behalf so that I can manage salon appointments efficiently.
-    * As an Admin User, I can add, modify or delete service categories so that I can ensure the website accurately reflects services available at the salon.
+#### Admin Stories
+* As an Admin User, I want to be able to view all appointments so that I can organise appointments and staff rotas in advance.
+* As an Admin User, I can add, modify or cancel appointments on Customers' behalf so that I can manage salon appointments efficiently.
+* As an Admin User, I can add, modify or delete service categories so that I can ensure the website accurately reflects services available at the salon.
 
-* User Stories
-    * As a Site User, I can get key information about the salon from the landing page so that I can spend less time searching for information.
-    * As a Site User, I want to be able to easily navigate throughout the site so that I can view relevant content.
-    * As a User, I can create an account with username and password so that I can book appointments.
-    * As a Site User, I can login with username and password so that I can manage my booking requests.
-    * As a Site User, I can clearly see if I am logged in or not so that I can choose what action to take.
-    * As a Site User, I can securely logout so that my information is protected.
-    * As a Site User, I can send an enquiry to the salon by filling out the form so that I can receive additional information.
-    * As an Authenticated User, I can view my bookings so that I can check upcoming appointments.
-    * As an Authenticated User, I can book an appointment so that I can attend the salon.
-    * As an Authenticated User, I can edit my bookings so that I can make changes to my appointment if required.
-    * As an Authenticated User, I can cancel my bookings so that I can notify the salon if the appointment is no longer required.
+#### Site User Stories
+* As a Site User, I can get key information about the salon from the landing page so that I can spend less time searching for information.
+* As a Site User, I want to be able to easily navigate throughout the site so that I can view relevant content.
+* As a Site User, I can create an account with username and password so that I can book appointments.
+* As a Site User, I can login with username and password so that I can manage my booking requests.
+* As a Site User, I can clearly see if I am logged in or not so that I can choose what action to take.
+* As a Site User, I can securely logout so that my information is protected.
+* As a Site User, I can send an enquiry to the salon by filling out the form so that I can receive additional information.
+* As an Authenticated User, I can view my bookings so that I can check upcoming appointments.
+* As an Authenticated User, I can book an appointment so that I can attend the salon.
+* As an Authenticated User, I can edit my bookings so that I can make changes to my appointment if required.
+* As an Authenticated User, I can cancel my bookings so that I can notify the salon if the appointment is no longer required.
 
 ### Agile methodology
 
