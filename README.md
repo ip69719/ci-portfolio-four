@@ -252,10 +252,11 @@ If the server encounters an unexpected condition that prevents it from fulfillin
 ### Validation Testing
 
 * The W3C Markup Validator, W3C CSS Validator Services and CI Python Linter were used to validate the project to ensure there were no syntax errors.
+* The results are stored in the project repository and I have included the link to each folder instead of adding screenshots for multiple files.
 
-    * W3C Markup Validator [Results](https://github.com/ip69719/ci-portfolio-four/tree/main/django_eleganza/assets/documents/testing/w3c_css_validator_results) - no errors found
-    * W3C CSS Validator [Results](https://github.com/ip69719/ci-portfolio-four/tree/main/django_eleganza/assets/documents/testing/w3c_markup_validator_results) - errors and warnings relate to Django template language and were ignored
-    * CI Python Linter [Results](https://github.com/ip69719/ci-portfolio-four/tree/main/django_eleganza/assets/documents/testing/ci_python_linter) - no errors found
+    * W3C Markup Validator results are stored [here](https://github.com/ip69719/ci-portfolio-four/tree/main/django_eleganza/assets/documents/testing/w3c_markup_validator_results) - no errors found.
+    * W3C CSS Validator results are stored [here](https://github.com/ip69719/ci-portfolio-four/tree/main/django_eleganza/assets/documents/testing/w3c_css_validator_results) - errors and warnings relate to Django template language and were ignored.
+    * CI Python Linter results are stored [here](https://github.com/ip69719/ci-portfolio-four/tree/main/django_eleganza/assets/documents/testing/ci_python_linter) - no errors found.
 
 ### Manual Testing
 
