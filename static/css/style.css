@@ -73,6 +73,7 @@ body {
 
 .container-account {
     background-color: #f2ece8;
+    min-height: 55vh;
 }
 
 .card {
