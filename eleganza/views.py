@@ -69,7 +69,7 @@ def edit_booking(request, appointment_id):
     # get a copy of the appointment record from db
     appointment = get_object_or_404(Appointment, id=appointment_id)
     if request.method == 'POST':
-        form = AppointmentForm(request.POST, instance=appointment)    
+        form = AppointmentForm(request.POST, instance=appointment)
         if form.is_valid():
             appointment = form.save(commit=False)
             appointment.customer = request.user
